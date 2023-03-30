@@ -1,37 +1,59 @@
-**Project MySQL - All for One**
+# Project MySQL - All for One
 
-Neste projeto denvolvi os principais comandos e conceitos iniciais do SQL!
+## Neste projeto denvolvi os principais comandos e conceitos iniciais da linguagem SQL
 
 > Habilidades Desenvolvidas
 > Neste projeto, desenvolvi as seguintes habilidades:
 
 > Entender o que são bancos de dados;
+
 > Entender como a linguagem de consulta estruturada (SQL) é usada;
+
 > Compreender como as tabelas se encaixam no conceito de banco de dados;
+
 > Montar um ambiente de desenvolvimento local para praticar SQL;
+
 > Entender como usar o MySQL Workbench;
+
 > Compreender o que é uma query SQL e quais são seus tipos de comando;
+
 > Gerar valores com SELECT;
+
 > Selecionar colunas individualmente com SELECT;
+
 > Renomear e gerar colunas em uma consulta com AS;
+
 > Concatenar colunas e valores com CONCAT;
+
 > Remover dados duplicados em uma consulta com DISTINCT;
+
 > Contar a quantidade de resultados em uma consulta com COUNT;
+
 > Limitar a quantidade de resultados em uma consulta com LIMIT;
+
 > Pular resultados em uma consulta com OFFSET;
+
 > Ordernar os resultados de uma consulta com ORDER BY;
+
 > Filtrar resultados de consultas com o WHERE;
+
 > Utilizar operadores booleanos e relacionais em consultas;
+
 > Criar consultas mais dinâmicas e maleáveis com LIKE;
+
 > Fazer consultas que englobam uma faixa de resultados com IN e BETWEEN;
+
 > Encontrar e separar resultados que incluem datas;
+
 > Inserir dados em tabelas com INSERT;
+
 > Atualizar dados em tabelas com UPDATE;
+
 > Apagar dados em tabelas com DELETE.
 
-Requisitos do Projeto
+## Requisitos do Projeto
 
-Desafios Iniciais
+### Desafios Iniciais
 
 1. Exiba apenas os nomes dos produtos na tabela products.
 2. Exiba os dados de todas as colunas da tabela products.
@@ -42,7 +64,7 @@ Desafios Iniciais
 7. Mostre apenas os ids dos 5 últimos registros da tabela products (a ordernação deve ser baseada na coluna id).
 8. Faça uma consulta na tabela employees que retorne o nome completo da pessoa colaboradora (colunas first_name e last_name) com o nome full_name e também a localização completa (colunas city, state_province e address) com o nome location.
 
-Desafios sobre filtragem de dados
+### Desafios sobre filtragem de dados
 
 9. Mostre todos os valores de notes da tabela purchase_orders que não são nulos.
 10. Mostre todos os dados da tabela purchase_orders em ordem decrescente, ordenados por created_by em que o created_by é maior ou igual a 3. Ordene também os resultados pelo id de forma crescente, como critério de desempate para a ordenação.
@@ -56,7 +78,7 @@ Desafios sobre filtragem de dados
 18. Mostre todos os registros de purchase_orders que tem o supplier_id igual a 3 e status_id igual a 2.
 19. Mostre a quantidade de pedidos que foram feitos na tabela orders pelo employee_id igual a 5 ou 6, e que foram enviados através do método(coluna) shipper_id igual a 2. No resultado, a coluna que contém a contagem de pedidos deve ser chamada de orders_count.
 
-Desafios de manipulação de tabelas
+### Desafios de manipulação de tabelas
 
 20. Adicione à tabela order_details um registro com order_id: 69, product_id: 80, quantity: 15.0000, unit_price: 15.0000, discount: 0, status_id: 2, date_allocated: NULL, purchase_order_id: NULL e inventory_id: 129.
 21. Adicione com um único INSERT, duas linhas à tabela order_details com os mesmos dados do requisito 20.
