@@ -1,4 +1,4 @@
-Project MySQL - All for One
+**Project MySQL - All for One**
 
 Neste projeto denvolvi os principais comandos e conceitos iniciais do SQL!
 
